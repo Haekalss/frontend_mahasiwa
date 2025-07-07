@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-import { getAllMahasiswa } from "../services/MahasiswaService";
+import { getAllMahasiswa } from "../services/mahasiswaService";
 
 export const useMahasiswa = () => {
     const [users, setUsers] = useState([]);
